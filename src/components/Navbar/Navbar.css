@@ -1,0 +1,30 @@
+.navbar,
+.fa-bars {
+    background-color: rgb(25, 25, 25);
+    color: rgb(230, 230, 230);
+}
+
+.nav-link {
+    color: inherit;
+    font-size: 18px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:not(:hover) {
+    box-shadow: none;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
